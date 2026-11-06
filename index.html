@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>নামাজ ও ইসলামিক তথ্য</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --green:#1b5e3f; --gold:#c9a227; --bg:#f7f5ef; --card:#ffffff; --text:#222; --muted:#666; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:'Noto Sans Bengali', sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  header { background:var(--green); color:#fff; text-align:center; padding:24px 16px; }
+  header h1 { margin:0; font-size:1.6rem; }
+  header p { margin:6px 0 0; opacity:.85; font-size:.95rem; }
+  nav { display:flex; flex-wrap:wrap; justify-content:center; gap:6px; background:#fff; padding:10px; position:sticky; top:0; z-index:10; box-shadow:0 2px 6px rgba(0,0,0,.08); }
+  nav button { border:none; background:#eef3ef; color:var(--green); padding:8px 14px; border-radius:20px; cursor:pointer; font-family:inherit; font-size:.95rem; }
+  nav button.active { background:var(--green); color:#fff; }
+  main { max-width:860px; margin:0 auto; padding:20px 16px 60px; }
+  section.page { display:none; }
+  section.page.active { display:block; }
+  .card { background:var(--card); border-radius:12px; padding:20px; margin-bottom:18px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+  h2 { color:var(--green); margin-top:0; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--green); margin:16px 0 6px; font-size:1.1rem; }
+  select, input { font-family:inherit; font-size:1rem; padding:8px 10px; border:1px solid #ccc; border-radius:8px; margin:4px 4px 4px 0; }
+  .arabic { font-family:'Noto Naskh Arabic', serif; font-size:1.5rem; direction:rtl; text-align:right; line-height:2.2; color:#111; }
+  .meaning { color:var(--muted); font-size:.95rem; margin-top:4px; }
+  .note { background:#fff8e1; border-left:4px solid var(--gold); padding:10px 14px; border-radius:6px; font-size:.92rem; margin-top:14px; }
+  table { width:100%; border-collapse:collapse; }
+  td, th { padding:10px; border-bottom:1px solid #eee; text-align:left; vertical-align:top; }
+  th { color:var(--green); }
+  .btn { background:var(--green); color:#fff; border:none; padding:9px 18px; border-radius:8px; cursor:pointer; font-family:inherit; }
+  .times { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:12px; }
+  .time-box { background:#eef6f1; border-radius:10px; padding:12px; text-align:center; }
+  .time-box span { display:block; font-size:.9rem; color:var(--muted); }
+  .time-box strong { font-size:1.3rem; color:var(--green); }
+  .hadith { border-left:4px solid var(--green); padding:10px 14px; margin-bottom:16px; background:#fafafa; border-radius:6px; }
+  .hadith small { color:var(--muted); }
+  .countdown { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+  .cd-box { background:var(--green); color:#fff; border-radius:12px; padding:16px; text-align:center; }
+  .cd-box h3 { color:var(--gold); margin:0 0 8px; font-size:1.05rem; }
+  .cd-box .timer { font-size:1.1rem; font-
